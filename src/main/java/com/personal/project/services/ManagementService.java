@@ -1,0 +1,8 @@
+package com.personal.project.services;
+
+import com.personal.project.dtos.requests.SelectingTalentsUserForEmploymentRequest;
+import com.personal.project.dtos.responses.SelectingTalentsUserForEmploymentResponse;
+
+public interface ManagementService {
+    SelectingTalentsUserForEmploymentResponse selectingTalentsUserForEmploymentResponse(SelectingTalentsUserForEmploymentRequest selectingTalentsUserForEmploymentRequest);
+}
